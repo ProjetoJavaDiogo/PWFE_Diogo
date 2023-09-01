@@ -1,5 +1,6 @@
 
 function updateClock(){
+    //coletando as informações de horário e data atuais
     var now = new Date();
     var dname = now.getDay(),
         mo = now.getMonth(),
@@ -7,13 +8,12 @@ function updateClock(){
         yr = now.getFullYear(),
         hou = now.getHours(),
         min = now.getMinutes(),
-        sec = now.getSeconds(),
-        pe = "AM";
+        sec = now.getSeconds();
 
-        var months = ["Janeiro","Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto","Setembro","Outubro", "Novembro", "Dezembro"];
-        var week = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta-Feira ","Sabádo"];
-        var ids = ["dayname", "month", "daynum", "year", "hour", "minutes","seconds","period"];
-        var values = [week[dname], "Dia " +dnum, "de " +months[mo], "de " +yr, hou+" :", min+" :", sec];
+        var months = ["Janeiro","Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto","SETEMBRO","Outubro", "Novembro", "Dezembro"];
+        var week = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "SEXTA-FEIRA ","Sabádo"];
+        var ids = ["dayname", "month", "daynum", "year", "hour", "minutes","seconds"];
+        var values = [week[dname], "DIA " +dnum, "DE " +months[mo], "DE " +yr, hou, min, sec];
 
         for (var i = 0; i < ids.length; i++) {
             document.getElementById(ids[i]).firstChild.nodeValue = values[i];  
