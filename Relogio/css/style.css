@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(https://cdn.wallpapersafari.com/93/26/Stkyof.gif);
+    color: white;
+    min-height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body, .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 500px;
+    background-image: url(https://images.hdqwalls.com/wallpapers/super-mario-fr.jpg);
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 30px 30px 40px;
+}
+
+.wrapper img{
+    max-width: 200px;
+}
+
+.wrapper h1{
+    font-size: 38px;
+} */
+
