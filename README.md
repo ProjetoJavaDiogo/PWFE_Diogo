@@ -11,10 +11,8 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Relógio </h3>
 
 <h5>    Leonardo | Projeto Lâmpada => </h5>
         Descrição das Funcionalidades do Projeto:
-
         Principais Desafios Encontrados:
 
-        ----------*------------------*-----------------*------------------*----------------
 
 <h5>    Rafael | Projeto Relógio => </h5>
         Descrição das Funcionalidades do Projeto:
@@ -25,12 +23,9 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Relógio </h3>
         Nesta etapa o momento mais desafiador foi entender os códigos em JavaScript e o mais importante foi entender o porquê e a lógica envolvida em cada parte do código, algo a comentar também, é a relação entre o JavaScript e o Html, principalmente levando em consideração a atribuição de ids e tags no Html para posteriormente reinvidicá-las no JS.
         A etapa de estilização também é sempre importante, pois o layout (ao meu ver) tem que ser simples e marcante para o usuário(UX|UI), um ponto que nem sempre é fácil de se alcançar.
 
-        ----------*------------------*-----------------*------------------*----------------
-
 
 <h5>    Matheus | Projeto Semáforo => </h5>
         Descrição das Funcionalidades do Projeto:
-
         Principais Desafios Encontrados:
 
 
