@@ -3,16 +3,15 @@
 <h2> Projeto de Programação Web FrontEnd com o intuito de se familiarizar e estudar a linguagem JavaScript. </h2>
 
 <h3> 30.08 = Inspiração | Troca de ideias | Definição dos Projetos
+<br>
 Leo - Lâmpada | Matheus - Semáforo | Rafael - Relógio </h3>
 
-<br>
 
 <h3> 01.09 = Início/Continuação dos projetos com bastante foco no estudo dos elementos básicos dessa linguagem de programação, após isso, focar na estilização das páginas utilizando css. </h3>
 <br>
 
 <h5>    Leonardo | Projeto Lâmpada => </h5>
         Descrição das Funcionalidades do Projeto:
-        <br>
         Principais Desafios Encontrados:
 
 
