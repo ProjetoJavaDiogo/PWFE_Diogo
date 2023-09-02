@@ -6,12 +6,12 @@
 <br>
 Leo - Lâmpada | Matheus - Semáforo | Rafael - Relógio </h3>
 
-
 <h3> 01.09 = Início/Continuação dos projetos com bastante foco no estudo dos elementos básicos dessa linguagem de programação, após isso, focar na estilização das páginas utilizando css. </h3>
 <br>
 
 <h5>    Leonardo | Projeto Lâmpada => </h5>
         Descrição das Funcionalidades do Projeto:
+        <br>
         Principais Desafios Encontrados:
 
 
