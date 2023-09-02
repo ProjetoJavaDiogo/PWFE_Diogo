@@ -10,8 +10,13 @@ function updateClock(){
         min = now.getMinutes(),
         sec = now.getSeconds();
 
-        var months = ["Janeiro","Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto","SETEMBRO","Outubro", "Novembro", "Dezembro"];
-        var week = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "SEXTA-FEIRA ","Sabádo"];
+    //lógica para adicionar um 0 quando os minutos e/ou os segundos forem menor do que 10
+        min = min <10 ? "0" + min : min;
+        sec = sec <10 ? "0" + sec : sec;
+        
+        
+        var months = ["JANEIRO","FEVEREIRO", "MARÇO", "ABRIL", "MAIO", "JUNHO", "JULHO", "AGOSTO","SETEMBRO","OUTUBRO", "NOVEMBRO", "DEZEMBRO"];
+        var week = ["DOMINGO", "SEGUNDA-FEIRA", "TERÇA-FEIRA", "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA ","SABÁDO"];
         var ids = ["dayname", "month", "daynum", "year", "hour", "minutes","seconds"];
         var values = [week[dname], "DIA " +dnum, "DE " +months[mo], "DE " +yr, hou, min, sec];
 
