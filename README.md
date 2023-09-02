@@ -4,7 +4,7 @@
 
 <h3> 30.08 = Inspiração | Troca de ideias | Definição dos Projetos
 <br>
-Leo - Lâmpada | Matheus - Semáforo | Rafael - Relógio </h3>
+Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
 
 <h3> 01.09 = Início/Continuação dos projetos com bastante foco no estudo dos elementos básicos dessa linguagem de programação, após isso, focar na estilização das páginas utilizando css. </h3>
 <br>
@@ -15,9 +15,9 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Relógio </h3>
         Principais Desafios Encontrados:
 
 
-<h5>    Rafael | Projeto Relógio => </h5>
+<h5>    Rafael | Projeto Calculadora => </h5>
         Descrição das Funcionalidades do Projeto:
-        Inicialmente foi feita toda a parte de JavaScript, até mesmo com o Html bem básico apresentando somente as "divs" e as "tags". Após a implementação bem sucedida do JavaScript, nesse caso funcionando o relógio(contador em horas/minutos/segundos) e também o "calendário"(contador de dia da semana em numeral e também em algarismos /mês e ano).
+        Inicialmente foi feita toda a parte de JavaScript, até mesmo com o Html bem básico apresentando somente as "divs" e as "tags". Após a implementação bem sucedida do JavaScript, nesse caso 
         Entrando na parte de css decide buscar um tema mais minimalista e tive a ideia de fazer com o tema do "SuperMario". O Background animado foi algo que veio a mente durante a execução e acredito que combinou bastante. Em relação a responsividade o layout se encaixou em diferentes tamanho de telas, sendo testado na parte do desenvolvedor na guia do Google Chrome e também do Edge. 
         <br>
         Principais Desafios Encontrados:
