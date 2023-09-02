@@ -14,14 +14,13 @@ Descrição das Funcionalidades do Projeto:
 
 Principais Desafios Encontrados:
 
-Rafael | Projeto Relógio =>
-Descrição das Funcionalidades do Projeto:
-Inicialmente foi feita toda a parte de JavaScript, até mesmo com o Html bem básico apresentando somente as "divs" e as "tags". Após a implementação bem sucedida do JavaScript, nesse caso funcionando o relógio(contador em horas/minutos/segundos) e também o "calendário"(contador de dia da semana em numeral e também em algarismos /mês e ano).
-Entrando na parte de css decide buscar um tema mais minimalista e tive a ideia de fazer com o tema do "SuperMario". O Background animado foi algo que veio a mente durante a execução e acredito que combinou bastante. Em relação a responsividade o layout se encaixou em diferentes tamanho de telas, sendo testado na parte do desenvolvedor na guia do Google Chrome e também do Edge. 
-
-Principais Desafios Encontrados:
-Nesta etapa o momento mais desafiador foi entender os códigos em JavaScript e o mais importante foi entender o porquê e a lógica envolvida em cada parte do código, algo a comentar também, é a relação entre o JavaScript e o Html, principalmente levando em consideração a atribuição de ids e tags no Html para posteriormente reinvidicá-las no JS.
-A etapa de estilização também é sempre importante, pois o layout (ao meu ver) tem que ser simples e marcante para o usuário(UX|UI), um ponto que nem sempre é fácil de se alcançar.
+<h5>    Rafael | Projeto Relógio => </h5>
+        Descrição das Funcionalidades do Projeto:
+        Inicialmente foi feita toda a parte de JavaScript, até mesmo com o Html bem básico apresentando somente as "divs" e as "tags". Após a implementação bem sucedida do JavaScript, nesse caso funcionando o relógio(contador em horas/minutos/segundos) e também o "calendário"(contador de dia da semana em numeral e também em algarismos /mês e ano).
+        Entrando na parte de css decide buscar um tema mais minimalista e tive a ideia de fazer com o tema do "SuperMario". O Background animado foi algo que veio a mente durante a execução e acredito que combinou bastante. Em relação a responsividade o layout se encaixou em diferentes tamanho de telas, sendo testado na parte do desenvolvedor na guia do Google Chrome e também do Edge. 
+        Principais Desafios Encontrados:
+        Nesta etapa o momento mais desafiador foi entender os códigos em JavaScript e o mais importante foi entender o porquê e a lógica envolvida em cada parte do código, algo a comentar também, é a relação entre o JavaScript e o Html, principalmente levando em consideração a atribuição de ids e tags no Html para posteriormente reinvidicá-las no JS.
+        A etapa de estilização também é sempre importante, pois o layout (ao meu ver) tem que ser simples e marcante para o usuário(UX|UI), um ponto que nem sempre é fácil de se alcançar.
 
 
 
