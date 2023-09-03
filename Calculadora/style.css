@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(img/cool-background.png);
+}
+
+/* botão de voltar */
+
+#btn{
+    color: #333;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(109, 32, 181);
+    cursor: pointer;
+    border: 3px solid #333;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#btn:hover{
+    background-color:#333;
+    color: rgb(109, 32, 181);
+    border: 3px solid rgb(109, 32, 181);
+}
+
+/* Componentes da calculadora */
+
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 20px 20px;
+    background-image:url(img/cool-background.png);
+    box-shadow: 0 5px 10px black;
+}
+
+.display{
+    height: 100px;
+    width: 100%;
+    outline: none; /* remover a borda quando um elemento está selecionado */
+    margin-bottom: 10px;
+    border: none;
+    text-align: right;
+    font-size: 35px;
+    color: #333;
+    pointer-events: none;  /* não deixar o usuário clicar no display*/
+    box-shadow: 0 3px 10px black;
+    border-radius: 15px;
+    background-image: url(img/cool-background.png);
+}
+
+.buttons{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button{
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: none;
+    background-color:white;
+    backdrop-filter: blur(30px);
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px black;
+}
+
+.buttons button:hover{
+    background-image: url(img/cool-background.png);
+    color: rgb(109, 32, 181);
+}
+
+.buttons button:active{
+    transform: scale(1.05);
+}
+
+.operator{
+    color: #333;
+}
+
+#equal{
+    background-color:#333;
+    color: rgb(109, 32, 181);
+}
+
+#equal:hover{
+    background-color: rgb(109, 32, 181);
+    color: white;
+}
+
+/* toggler para alternar entre o modo default e escuro */
+
+.theme-toggler {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+.theme-toggler.active {
+    color: #333;
+}
+
+.theme-toggler.active::before {
+    background-image: url(img/cool-background.png);
+    border: 3px solid #333;
+}
+
+.theme-toggler::before {
+    content: '';
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-image: url(img/cool-background_dark.png);
+    z-index: -1; /* transição do botão para ficar acima do botão do modo claro  */
+    border: 3px solid rgb(109, 32, 181);
+}
+
+
+  /* modo escuro */
+
+  .container.dark {
+    background-image: url(img/cool-background_dark.png);
+  }
+
+  .container.dark .display{
+    background-image: url(img/cool-background_dark.png);
+    color: white;
+  }
+
+  .container.dark #equal{
+    background-color:rgb(109, 32, 181);
+    color: #333;
+  }
+
+  .container.dark .buttons button{
+    background-color: #333;
+    color: white;
+  }
+
+  .container.dark .buttons button:hover{
+    background-image: url(img/cool-background_darkpng.png);
+  }
+
+
+
+
