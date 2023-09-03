@@ -7,7 +7,8 @@ const calculate = (btnValue) =>{
     if(btnValue === "=" && btnValue !== ""){
         //se o output for % então mude para /100 para realizar o cálculo de porcentagem
        output = eval(output.replace("%", "/100")); 
-    } else if(btnValue === "AC"){
+    } else if(btnValue === "CE"){
+        //se ce for clicado substituir o output atual por nada
         output = "";
     } else if(btnValue === "DEL"){
         //se del for clicado remover o último elemento adicionado

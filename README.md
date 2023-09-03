@@ -23,7 +23,7 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
         Principais Desafios Encontrados:
         Nesta etapa o momento mais desafiador foi entender os códigos em JavaScript e o mais importante foi entender o porquê e a lógica envolvida em cada parte do código, algo a comentar também, é a relação entre o JavaScript e o Html, principalmente levando em consideração a atribuição de ids e tags no Html para posteriormente reinvidicá-las no JS.
         A etapa de estilização também é sempre importante, pois o layout (ao meu ver) tem que ser simples e marcante para o usuário(UX|UI), um ponto que nem sempre é fácil de se alcançar.
-        Na parte de organizar os botões da calculadora não estava conseguindo organizá-los de uma forma interessante usando o display flex, então dei uma pesquisada e encontrei o display:grid, após assistir alguns vídeos e utilizando o grid-gap para dar espaçamento e grid-template-columns: repeat(4, 1fr) para separar, ou seja 4 componentes em uma linha, a calculadora ficou com um visual básico mas agradável(eu acho🤣).
+        Na parte de organizar os botões da calculadora não estava conseguindo organizá-los de uma forma interessante usando o display flex, então dei uma pesquisada e encontrei o display:grid, após assistir alguns vídeos (https://www.youtube.com/watch?v=HN1UjzRSdBk&ab_channel=Rocketseat) e utilizando o grid-gap para dar espaçamento e grid-template-columns: repeat(4, 1fr) para separar, ou seja 4 componentes em uma linha, a calculadora ficou com um visual básico mas agradável(eu acho🤣).
 
 <br>
 
