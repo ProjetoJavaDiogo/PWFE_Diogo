@@ -10,13 +10,13 @@
 body{
     height: 100vh;
     background-attachment: fixed;
-    background-image: url(img/cool-background.png);
+    background-image: url(img/back\ maior.png);
 }
 
 /* botão de voltar */
 
 #btn{
-    color: #333;
+    color:white;
     padding: 10px 10px 10px 10px;
     font-size: 20px;
     border-radius: 10px;
@@ -25,6 +25,7 @@ body{
     border: 3px solid #333;
     margin-top: 10px;
     margin-left: 10px;
+    box-shadow: 0 5px 10px black;
 }
 
 #btn:hover{
