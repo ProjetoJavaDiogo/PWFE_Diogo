@@ -23,7 +23,7 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
         Após assitir alguns vídeos surgiu a ideia de fazer um dark mode, ou seja, um toggler para alternar entre o modo principal e um modo mais escuro.
 
         Site usado para gerar o background: https://trianglify.io/
-        vídeos de referência: https://www.youtube.com/watch?v=_npnL4Gyg_o&ab_channel=NotOnlyDev | https://www.youtube.com/watch?v=cHkN82X3KNU&ab_channel=CodingLab
+        Artigos de referência: https://www.youtube.com/watch?v=_npnL4Gyg_o&ab_channel=NotOnlyDev | https://www.youtube.com/watch?v=cHkN82X3KNU&ab_channel=CodingLab | https://www.freecodecamp.org/portuguese/news/como-construir-uma-calculadora-html-do-zero-usando-javascript/
 <br>
         Principais Desafios Encontrados:
         Nesta etapa o momento mais desafiador foi entender os códigos em JavaScript e o mais importante foi entender o porquê e a lógica envolvida em cada parte do código, algo a comentar também, é a relação entre o JavaScript e o Html, principalmente levando em consideração a atribuição de ids e tags no Html para posteriormente reinvidicá-las no JS.
