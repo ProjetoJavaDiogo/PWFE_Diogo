@@ -9,8 +9,13 @@
 <body>
 
     <a href="../Index/index.html"><button type="button" id="btn">Back to Index</button></a>
-    
+    <div class="theme-toggler active">
+        <i class="toggler-icon"></i>
+    </div>
+
     <div class="container">
+        <div class="calculator dark">
+
         <input type="text" class="display">
 
         <div class="buttons">
@@ -37,8 +42,9 @@
             <button data-value="0">0</button>
             <button data-value="00">00</button>
             <button data-value=".">.</button>
-            <button class="operator" data-value="=">=</button>
+            <button class="operator" data-value="=" id="equal">=</button>
 
+            </div>
         </div>
     </div>
     

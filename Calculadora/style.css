@@ -14,19 +14,19 @@ body{
 }
 
 #btn{
-    color: black;
+    color: #333;
     padding: 10px 10px 10px 10px;
     font-size: 20px;
     border-radius: 10px;
     background-color: rgb(109, 32, 181);
     cursor: pointer;
-    border: 3px solid black;
+    border: 3px solid #333;
     margin-top: 10px;
     margin-left: 10px;
 }
 
 #btn:hover{
-    background-color:black;
+    background-color:#333;
     color: rgb(109, 32, 181);
     border: 3px solid rgb(109, 32, 181);
 }
@@ -40,8 +40,7 @@ body{
     width: 100%;
     border-radius: 15px;
     padding: 10px 20px 20px;
-    background: transparent;
-    backdrop-filter: blur(30px);
+    background: rgb(109, 32, 181);
     box-shadow: 0 5px 10px black;
 }
 
@@ -53,12 +52,11 @@ body{
     border: none;
     text-align: right;
     font-size: 35px;
-    color: black;
+    color: #333;
     pointer-events: none;  /* não deixar o usuário clicar no display*/
     box-shadow: 0 3px 10px black;
     border-radius: 15px;
-    background: transparent;
-    backdrop-filter: blur(30px);
+    background: white;
 }
 
 .buttons{
@@ -69,16 +67,18 @@ body{
 
 .buttons button{
     padding: 10px 10px;
-    border-radius: 7px;
+    border-radius: 50%;
     border: none;
-    background-color:rgb(109, 32, 181);
+    background-color:white;
+    backdrop-filter: blur(30px);
     font-size: 22px;
     cursor: pointer;
     box-shadow: 0 5px 10px black;
 }
 
 .buttons button:hover{
-    background-color:rgb(109, 32, 181);
+    background-color:#333;
+    color: rgb(109, 32, 181);
 }
 
 .buttons button:active{
@@ -86,5 +86,74 @@ body{
 }
 
 .operator{
+    color: #333;
+}
+
+#equal{
+    background-color:#333;
+    color: rgb(109, 32, 181);
+}
+
+#equal:hover{
+    background-color: rgb(109, 32, 181);
     color: white;
 }
+
+.theme-toggler {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.theme-toggler.active {
+    color: #333;
+}
+
+.theme-toggler.active::before {
+    background-color:rgb(109, 32, 181);
+    border: 3px solid #333;
+}
+
+.theme-toggler::before {
+    content: '';
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: white;
+    z-index: -1;
+    border: 3px solid rgb(109, 32, 181);
+}
+
+
+  /* dark theme */
+
+  .container.dark {
+    background-color: #ffffff;
+  }
+
+  .container.dark .display{
+    background-color:rgb(255, 255, 255);
+  }
+
+  .container.dark #equal{
+    background-color:rgb(109, 32, 181);
+    color: #333;
+  }
+
+  .container.dark .buttons button{
+    background-color: #333;
+    color: white;
+  }
+
+  .container.dark{
+    background-image: url(img/walpaper\ mario.webp);
+  }
+
+
+
