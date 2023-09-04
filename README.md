@@ -41,4 +41,4 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
 
 
 
-<h3> 05.09 = </h3>
+<h3> 05.09 = Criação de uma página inicial com três cards, um para cada projeto e também deixar os projetos responsivos</h3>
