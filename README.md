@@ -31,6 +31,7 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
         Na parte de organizar os botões da calculadora não estava conseguindo organizá-los de uma forma interessante usando o display flex, então dei uma pesquisada e encontrei o display:grid, após assistir alguns vídeos (https://www.youtube.com/watch?v=HN1UjzRSdBk&ab_channel=Rocketseat) e utilizando o grid-gap para dar espaçamento e grid-template-columns: repeat(4, 1fr) para separar, ou seja 4 componentes em uma linha, a calculadora ficou com um visual básico mas agradável(eu acho🤣). 
 
         *dúvidas referente as operações realizadas pela calculadora e divisão por 0*
+        *pedir explicação da linha 30 do código de JS (operações)*
 
 <br>
 
