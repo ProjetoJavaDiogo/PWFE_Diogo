@@ -42,10 +42,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- `Projeto 1`: Lâmpada
+- `Projeto 2`: Semáforo
+- `Projeto 3`: Calculadora
+- `Projeto 3a`: Relógio
 
 # 📁 Acesso ao projeto
 
