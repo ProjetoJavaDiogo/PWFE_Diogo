@@ -12,7 +12,6 @@ body{
     background: linear-gradient(90deg, rgba(31,160,255,1) 0%, rgba(18,218,251,1) 35%, rgba(167,253,204,1) 100%);
 }
 
-
 footer{
     display: flex;
     align-items: center;

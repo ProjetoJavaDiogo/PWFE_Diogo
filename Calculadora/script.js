@@ -1,6 +1,6 @@
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
-const specialChars =["%", "*","/","-","+","="];
+const specialChars =["%","*","/","-","+","="];
 let output = "";
 
 const calculate = (btnValue) =>{
@@ -12,15 +12,13 @@ const calculate = (btnValue) =>{
     } else if(btnValue === "DEL"){
         //se del for clicado remover o último elemento adicionado
         output = output.toString().slice(0, -1);
-    } else if(btnValue === "RD"){ //radiciação
-        output = output*output;
     } else {
         //se output é vazio e botao é specialChars então 
         //if(output === "" && specialChars.includes(btnValue)) return; //includes determina se um conjunto de caracteres pode ser encontrado dentro de uma string
         output+=btnValue;  //Se a saída estiver vazia e o botão for specialChars então retorne
         //permite que no output aparece o valor anterior clicado e o valor atual clicado
     }
-    display.value = output;
+    display.value =  output;
 };
 
 //adicionar um eventListener aos botões, para ocorrer um vento, ou seja, as operações e 'aparições' no display no caso dos números
