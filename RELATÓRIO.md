@@ -43,3 +43,5 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
 
 
 <h3> 05.09 = Criação de uma página inicial com três cards, um para cada projeto e também deixar os projetos responsivos</h3>
+
+<h5> Término dos relatórios | Término da página index com resolução de bugs | Subir site no Github Pages</h5>
