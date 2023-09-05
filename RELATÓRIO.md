@@ -9,8 +9,10 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
 
 <h5>    Leonardo | Projeto Lâmpada => </h5>
         Descrição das Funcionalidades do Projeto:
+        Esse foi um projeto básico onde tive que ter um raciocínio maior na parte de javaScript apenas, algo que ainda tenho uma especialidade. Na parte de html pelo projeto da lampada ter sido simples, fiz apenas as "divs" colocando imagens e botões. Na parte de JavaScript onde foi dado as funções de cada elemento, funcções de click, de mouse e de botões. O Css foi usado para a estilização, colocar cada elemento no lugar, definir imagem de fundo, cor de elementos.
         <br>
         Principais Desafios Encontrados:
+        o primcipal desafio encontrado foi dentro do JavaScript, tive que pesquisar e prestar muita atenção a cada passo, alguns momentos não soube identificar alguns erros meus dentro do código, mas fui procurando e me aprimorando junto com o projeto.
 
 
 <h5>    Rafael | Projeto Calculadora => </h5>
