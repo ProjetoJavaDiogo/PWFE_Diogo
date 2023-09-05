@@ -11,6 +11,27 @@
 </h4>
 
 <p align="center">
+ <a href="#índice">Índice</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autores">Autores</a>
+</p>
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [x]  [HTML]
+- [x]  [CSS]
+- [x]  [JavaScript]
+
+
+
+
+# Índice 
+<p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#roadmap">Roadmap</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
@@ -18,29 +39,6 @@
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
-
-### 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [HTML5]
-- [CSS3]
-- [JS]
-
-# Índice 
-
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#autores)
-* [Licença](#licença)
-* [Conclusão](#conclusão)
 
 # :hammer: Funcionalidades do projeto
 
@@ -59,7 +57,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 # Autores
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/82974688?v=4" width=115><br><sub>Matheus Rodrigues da Silva</sub>](https://github.com/TheuZCoder) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/82974688?v=4" width=115><br><sub>Matheus Rodrigues da Silva</sub>](https://github.com/TheuZCoder) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770371?v=4" width=115><br><sub>Rafael de Sousa Moura</sub>](https://github.com/rafaelmoura23) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/vitalinoleo) |
 | :---: | :---: | :---: |
 
 
