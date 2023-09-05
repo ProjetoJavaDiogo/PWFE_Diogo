@@ -25,16 +25,6 @@ body{
     justify-content: space-between;
 }
 
-footer{
-    border-top: solid 2px black;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-
-}
-
-
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -68,8 +58,10 @@ footer{
     text-align: center;
 }
 
-hr{
-    margin-top: 250px;
+footer{
+    border-top: solid 2px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
-
-
