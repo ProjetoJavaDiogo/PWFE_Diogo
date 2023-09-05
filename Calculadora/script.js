@@ -13,7 +13,7 @@ const calculate = (btnValue) =>{
         //se del for clicado remover o último elemento adicionado
         output = output.toString().slice(0, -1);
     } else if(btnValue === "RD"){ //radiciação
-        output = output*=output;
+        output = output*output;
     } else {
         //se output é vazio e botao é specialChars então 
         //if(output === "" && specialChars.includes(btnValue)) return; //includes determina se um conjunto de caracteres pode ser encontrado dentro de uma string
