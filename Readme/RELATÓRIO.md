@@ -37,8 +37,9 @@ Leo - Lâmpada | Matheus - Semáforo | Rafael - Calculadora </h3>
 
 <h5>    Matheus | Projeto Semáforo => </h5>
         Descrição das Funcionalidades do Projeto:
+        O projeto realizado foi o do semaforo onde escontrei dificuldade com o javaScript, pois html e css são mais faceis pois é facil interpretar são mais visuais do que lógicos, o semaforo foi todo construido em CSS desde as formas até as luzes, o JS entrou para fazer as luzes aparecerem no momento certo alem de colocar uma função para trocar a cor do fundo da pagina, tambem foi feita uma leve formatação na pagina index para ficar o mais clean code possivel
         <br>
-        Principais Desafios Encontrados:
+        Principais Desafios Encontrados: o JS concerteza, as vezes os códigos não entram muito bem na cabeça e acabo ficando irritado que nao funcione mas com calma e jeito sempre da certo.
 
 
 
