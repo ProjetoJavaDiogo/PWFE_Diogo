@@ -67,3 +67,26 @@ body{
     background-color: #2ecc71;
     box-shadow: 0 0 10px 1px #2ecc71;
 }
+
+
+#btn{
+    color: #333;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #2aa5a5;
+    cursor: pointer;
+    border: 3px solid #333;
+}
+.botao{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+#btn:hover{
+    background-color:#2aa5a5;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
