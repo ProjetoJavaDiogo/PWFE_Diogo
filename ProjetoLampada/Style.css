@@ -3,8 +3,7 @@ body {
     background-image: url(IMG/Tive.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
-
+    background-attachment: fixed;
 }
 
 .box {
@@ -13,20 +12,19 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 10%;
-    
-
 } 
+
 button {
     width: 120px;
     background-color: rgb(133, 133, 133);    
     border-radius: 10%;
     
 }
+
 button:hover{
     background-color: rgb(255, 255, 196);
 }
+
 .lamp{  
     width: 100px;
-
-
 }
