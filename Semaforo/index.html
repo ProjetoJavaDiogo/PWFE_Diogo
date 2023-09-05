@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="/Semaforo/css/semaStyle.css">
 </head>
 
-<body>
-    <div class="botao">
-        <a href="../Index/index.html"><button type="button" id="btn">Back to Index</button></a>
-    </div>
-
+<body class="meuDiv" id="minhaDiv">
     <main>
-        <article class="container-maior">
+        <div class="con">
+            <div class="botao">
+                <a href="../Index/index.html"><button type="button" id="btn">Back to Index</button></a>
+    
+                <button onclick="mudarCorDeFundo()" id="btn">Mudar Cor de Fundo</button>
+            </div>
+    
+            
+        
+    
+    
+    
             <div class="container">
                 <div class="semaforo">
                     <span class="luz-circular" color="red"></span>
@@ -24,7 +31,8 @@
                 <div class="stick"></div>
                 <div class="floor"></div>
             </div>
-        </article>
+        </div>
+
     </main>
 
 </body>
