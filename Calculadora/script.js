@@ -26,9 +26,10 @@ buttons.forEach((button) =>{
     //eventListener que faz aparecer o valor de cada botao no console.log
     button.addEventListener("click", e => console.log(e.target.dataset.value));
     button.addEventListener("click", e => calculate(e.target.dataset.value));
-
 });
 
+
+//código para alternar entre os modos de cor
 const themeToggleBtn = document.querySelector(".theme-toggler");
 const calculator = document.querySelector(".container");
 const toggleIcon = document.querySelector(".toggler-icon");
