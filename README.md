@@ -25,17 +25,16 @@
  <a href="#autor">Autores</a>
 </p>
 
+<h2 id="#objetivo"> Objetivo </h2>
 
+<h2 id="#descricao"> Descrição </h2>
 
-
-
-### 🛠 Tecnologias
-
+<h2 id="#tecnologias"> 🛠️ Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [x]  [HTML]
-- [x]  [CSS]
-- [x]  [JavaScript]
+- [x]  HTML
+- [x]  CSS
+- [x]  JavaScript
 
 
 
