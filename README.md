@@ -10,14 +10,22 @@
     :construction:  Projeto em Construção  :construction:
 </h4>
 
+<hr>
+
+<h2 id=indice> 🗂️ Índice </h2>
 <p align="center">
- <a href="#índice">Índice</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autores">Autores</a>
+ <a href="#objetivo">Objetivo</a>
+ <a href="#descricao">Descrição</a>
+ <a href="#tecnologias">Tecnologias</a>
+ <a href="#resumo">Resumo do Projeto</a>
+ <a href="#referencia">Referências / Estudos</a>
+ <a href="#relatorios">Relatórios</a>  
+ <a href="#autor">Autores</a>
 </p>
+
+
+
+
 
 ### 🛠 Tecnologias
 
@@ -29,16 +37,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 
-
-# Índice 
-<p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>
 
 # :hammer: Funcionalidades do projeto
 
