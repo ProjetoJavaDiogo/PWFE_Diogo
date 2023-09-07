@@ -35,17 +35,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - `Projeto 3`: Calculadora
 - `Projeto 3a`: Relógio
 
-<h2 id=#layout"> UX|UI </h2>
+<h2 id="#layout"> UX|UI </h2>
 
-<h2 id=#responsividade"> Responsividade </h2>
+<h2 id="#responsividade"> Responsividade </h2>
 
-<h2 id=#resumo"> Resumo do Projeto </h2>
+<h2 id="#resumo"> Resumo do Projeto </h2>
 
-<h2 id=#referencia"> Referências </h2>
+<h2 id="#referencia"> Referências </h2>
 
-<h2 id=#relatorios"> Relatórios </h2>
+<h2 id="#relatorios"> Relatórios </h2>
 
-<h2 id=#autor"> Autores </h2>
+<h2 id="#autor"> Autores </h2>
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/82974688?v=4" width=115><br><sub>Matheus Rodrigues da Silva</sub>](https://github.com/TheuZCoder) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770371?v=4" width=115><br><sub>Rafael de Sousa Moura</sub>](https://github.com/rafaelmoura23) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123977521?v=4" width=115><br><sub>Leonardo</sub>](https://github.com/vitalinoleo) |
 | :---: | :---: | :---: |
