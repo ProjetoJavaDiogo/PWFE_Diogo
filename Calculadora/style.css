@@ -10,7 +10,7 @@
 body{
     height: 100vh;
     background-attachment: fixed;
-    background-image: url(img/back\ maior.png);
+    background-image: url(img/background_maior.png);
 }
 
 /* botão de voltar */
@@ -45,7 +45,7 @@ body{
     width: 100%;
     border-radius: 15px;
     padding: 10px 20px 20px;
-    background-image:url(img/cool-background.png);
+    background-image:url(img/background_maior.png);
     box-shadow: 0 5px 10px black;
 }
 
@@ -61,7 +61,7 @@ body{
     pointer-events: none;  /* não deixar o usuário clicar no display*/
     box-shadow: 0 3px 10px black;
     border-radius: 15px;
-    background-image: url(img/cool-background.png);
+    background-image: url(img/background_maior.png);
 }
 
 .buttons{
@@ -82,7 +82,7 @@ body{
 }
 
 .buttons button:hover{
-    background-image: url(img/cool-background.png);
+    background-image: url(img/background_maior.png);
     color: rgb(109, 32, 181);
 }
 
@@ -120,7 +120,7 @@ body{
 }
 
 .theme-toggler.active::before {
-    background-image: url(img/cool-background.png);
+    background-image: url(img/background_maior.png);
     border: 3px solid #333;
 }
 
@@ -132,7 +132,7 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-image: url(img/cool-background_dark.png);
+    background-image: url(img/background_dark.png);
     z-index: -1; /* transição do botão para ficar acima do botão do modo claro  */
     border: 3px solid rgb(109, 32, 181);
 }
@@ -141,11 +141,11 @@ body{
   /* modo escuro */
 
   .container.dark {
-    background-image: url(img/cool-background_dark.png);
+    background-image: url(img/background_dark.png);
   }
 
   .container.dark .display{
-    background-image: url(img/cool-background_dark.png);
+    background-image: url(img/background_dark.png);
     color: white;
   }
 
@@ -160,7 +160,7 @@ body{
   }
 
   .container.dark .buttons button:hover{
-    background-image: url(img/cool-background_darkpng.png);
+    background-image: url(img/background_dark.png);
   }
 
 

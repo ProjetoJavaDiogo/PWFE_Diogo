@@ -6,6 +6,26 @@ body {
     background-attachment: fixed;
 }
 
+#btn{
+    color:white;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(67, 67, 67);
+    cursor: pointer;
+    border: 3px solid #333;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 0 5px 10px black;
+    width: 150px;
+}
+
+#btn:hover{
+    background-color:#333;
+    color: rgb(172, 172, 20);
+    border: 3px solid rgb(149, 167, 13);
+}
+
 .box {
     display: flex;
     flex-direction: column;
