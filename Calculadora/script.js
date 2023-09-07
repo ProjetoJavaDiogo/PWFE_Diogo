@@ -1,31 +1,52 @@
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
-const specialChars =["%","*","/","-","+","="];
+const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
 
-const calculate = (btnValue) =>{
-    if(btnValue === "=" && btnValue !== ""){
-       output = eval(output.replace("%", "/100")); 
-    } else if(btnValue === "CE"){
-        //se ce for clicado substituir o output atual por nada
+const calculate = (btnValue) => {
+    if (btnValue === "=" && btnValue !== "") {
+        output = evaluateExpression(output.replace("%", "/100"));
+    } else if (btnValue === "CE") {
         output = "";
-    } else if(btnValue === "DEL"){
-        //se del for clicado remover o último elemento adicionado
-        output = output.toString().slice(0, -1);
+    } else if (btnValue === "DEL") {
+        output = output.slice(0, -1);
     } else {
-        //se output é vazio e botao é specialChars então 
-        //if(output === "" && specialChars.includes(btnValue)) return; //includes determina se um conjunto de caracteres pode ser encontrado dentro de uma string
-        output+=btnValue;  //Se a saída estiver vazia e o botão for specialChars então retorne
-        //permite que no output aparece o valor anterior clicado e o valor atual clicado
+        output += btnValue;
     }
-    display.value =  output;
+    display.value = output;
 };
 
-//adicionar um eventListener aos botões, para ocorrer um vento, ou seja, as operações e 'aparições' no display no caso dos números
-buttons.forEach((button) =>{
-    //eventListener que faz aparecer o valor de cada botao no console.log
-    button.addEventListener("click", e => console.log(e.target.dataset.value));
-    button.addEventListener("click", e => calculate(e.target.dataset.value));
+const evaluateExpression = (expression) => {
+    let operators = ['*', '/', '+', '-'];
+    let values = expression.split(/[\+\-\*\/]/);
+
+    let result = parseFloat(values[0]);
+
+    for (let i = 1; i < values.length; i++) {
+        let operator = expression[values[i].length];
+        let value = parseFloat(values[i]);
+
+        switch (operator) {
+            case '*':
+                result *= value;
+                break;
+            case '/':
+                result /= value;
+                break;
+            case '+':
+                result += value;
+                break;
+            case '-':
+                result -= value;
+                break;
+        }
+    }
+
+    return result;
+};
+
+buttons.forEach((button) => {
+    button.addEventListener("click", (e) => calculate(e.target.dataset.value));
 });
 
 
