@@ -46,15 +46,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <h2 id="#resumo"> Resumo do Projeto </h2>
 
 <h2 id="#referencia"> Referências </h2>
+
 - Site usado para gerar o background: 
 
-- [x] https://trianglify.io/
+    - https://trianglify.io/
       
-Artigos de referência:
+- Artigos de referência:
 
-- https://www.youtube.com/watch?v=_npnL4Gyg_o&ab_channel=NotOnlyDev 
-- https://www.youtube.com/watch?v=cHkN82X3KNU&ab_channel=CodingLab 
-- https://www.freecodecamp.org/portuguese/news/como-construir-uma-calculadora-html-do-zero-usando-javascript/
+    - https://www.youtube.com/watch?v=_npnL4Gyg_o&ab_channel=NotOnlyDev 
+    - https://www.youtube.com/watch?v=cHkN82X3KNU&ab_channel=CodingLab 
+    - https://www.freecodecamp.org/portuguese/news/como-construir-uma-calculadora-html-do-zero-usando-javascript/
 
 <h2 id="#relatorios"> Relatórios </h2>
 
