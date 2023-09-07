@@ -17,8 +17,10 @@
  <a href="#objetivo">Objetivo</a> |
  <a href="#descricao">Descrição</a> |
  <a href="#tecnologias">Tecnologias</a> |
+ <a href="#layout">UX|UI</a> |
+ <a href="#responsividade">Responsividade </a> |
  <a href="#resumo">Resumo do Projeto</a> |
- <a href="#referencia">Referências / Estudos</a> |
+ <a href="#referencia">Referências | Estudos</a> |
  <a href="#relatorios">Relatórios</a> |
  <a href="#autor">Autores</a>
 </p>
