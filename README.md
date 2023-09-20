@@ -19,13 +19,21 @@
 
 <h2 id="#descricao"> 📃 Descrição </h2>
 
-- `Projeto 1`: Lâmpada
+- `Projeto 1`: Lâmpada 💡
+  - 
+  - Este código cria uma calculadora interativa com funcionalidades básicas de operações matemáticas e um recurso para alternar entre modos de cor.
   
-- `Projeto 2`: Semáforo
+- `Projeto 2`: Semáforo ⚙
+  - 
+  - Este código cria uma calculadora interativa com funcionalidades básicas de operações matemáticas e um recurso para alternar entre modos de cor.
   
-- `Projeto 3`: Calculadora
+- `Projeto 3`: Calculadora 🧮
+  - 
+  - Este código cria uma calculadora interativa com funcionalidades básicas de operações matemáticas e um recurso para alternar entre modos de cor.
   
-- `Projeto 3a`: Relógio
+ - `Projeto 3a`: Relógio ⏳
+   - 
+   - Este código cria uma calculadora interativa com funcionalidades básicas de operações matemáticas e um recurso para alternar entre modos de cor.
 
 <h2 id="#tecnologias"> 🛠️ Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -34,7 +42,23 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x]  CSS
 - [x]  JavaScript
 
-<h2 id="#funcionalidades"> Funcionalidades do Projeto </h2>
+<h2 id="#funcionalidades"> Funcionalidades dos Projetos </h2>
+
+## Calculadora
+  - Seleção de Elementos HTML:
+    - O código seleciona elementos HTML como o display da calculadora, os botões e elementos relacionados à troca de tema.
+
+  - Função de Cálculo (calculate):
+    - Esta função processa os cliques nos botões da calculadora, realizando operações como adição, subtração, multiplicação, divisão, porcentagem e exclusão de caracteres.
+
+  - Avaliação de Expressões (avalExpression):
+    - A função avalExpression analisa uma expressão matemática, identificando os operadores e operandos, e realiza as operações correspondentes.
+
+  - Event Listeners para Botões:
+    - Cada botão na página recebe um event listener para reagir aos cliques. Isso resulta na chamada da função calculate com o valor associado ao botão clicado.
+
+  - Alternância de Modo de Cor:
+    - Um botão de alternância de tema permite ao usuário mudar entre modos de cor claro e escuro na interface da calculadora.
 
 
 <h2 id="#layout"> UX|UI </h2>
