@@ -1,8 +1,5 @@
 <h1 align="center"> Projetos JavaScript | PWFE </h1>
 
-<h3 align="center"> 
-    🚧 Projeto em Construção  :construction:
-</h3>
 
 <h2 id=indice> 🗂️ Índice </h2>
 <p align="center">
@@ -22,6 +19,14 @@
 
 <h2 id="#descricao"> 📃 Descrição </h2>
 
+- `Projeto 1`: Lâmpada
+  
+- `Projeto 2`: Semáforo
+  
+- `Projeto 3`: Calculadora
+  
+- `Projeto 3a`: Relógio
+
 <h2 id="#tecnologias"> 🛠️ Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -31,31 +36,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <h2 id="#funcionalidades"> Funcionalidades do Projeto </h2>
 
-- `Projeto 1`: Lâmpada
-  
-- `Projeto 2`: Semáforo
-  
-- `Projeto 3`: Calculadora
-  
-- `Projeto 3a`: Relógio
 
 <h2 id="#layout"> UX|UI </h2>
 
 <h2 id="#responsividade"> Responsividade </h2>
 
 <h2 id="#resumo"> Resumo do Projeto </h2>
-
-<h2 id="#referencia"> Referências </h2>
-
-- Site usado para gerar o background: 
-
-    - https://trianglify.io/
-      
-- Artigos de referência:
-
-    - https://www.youtube.com/watch?v=_npnL4Gyg_o&ab_channel=NotOnlyDev 
-    - https://www.youtube.com/watch?v=cHkN82X3KNU&ab_channel=CodingLab 
-    - https://www.freecodecamp.org/portuguese/news/como-construir-uma-calculadora-html-do-zero-usando-javascript/
 
 <h2 id="#relatorios"> Relatórios </h2>
 
