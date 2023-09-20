@@ -27,11 +27,17 @@ const avalExpression = (expression) => {
 
     if (parts.length === 2 && operator) {  //verifica se a string foi divida corretamente (nº e operator) e se existe um operador
         const [num1, num2] = parts.map(parseFloat); //extrai os dois valores e converte para float
+
         switch (operator[0]) { //usando switch case para definir os casos das operações matemáticas
             case "+": return num1 + num2;
             case "-": return num1 - num2;
             case "*": return num1 * num2;
-            case "/": return num1 / num2;
+            case "/": 
+            if (num2 !== 0) {
+                return num1 / num2;
+            } else {
+                return "Erro: / por 0";
+            }
             case "x²": return Math.sqrt(num1);
             //adicionar mais operações
             default: return NaN;  
