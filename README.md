@@ -33,7 +33,8 @@
   
  - `Projeto 3a`: Relógio ⏳
    - 
-   - Este código cria uma calculadora interativa com funcionalidades básicas de operações matemáticas e um recurso para alternar entre modos de cor.
+   - Este código JavaScript cria uma função para atualizar e exibir a data e a hora atuais, utilizando arrays para armazenar os nomes de meses e dias da semana, e um loop para atualizar os elementos HTML correspondentes.
+   - A função initClock é utilizada para iniciar o relógio no momento do carregamento da página.
 
 <h2 id="#tecnologias"> 🛠️ Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -59,6 +60,25 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
   - Alternância de Modo de Cor:
     - Um botão de alternância de tema permite ao usuário mudar entre modos de cor claro e escuro na interface da calculadora.
+
+## Relógio
+ - Função updateClock:
+   - Esta função é responsável por obter e atualizar as informações de data e hora atuais.
+   - Ela utiliza o objeto Date para obter detalhes como dia da semana, mês, dia do mês, ano, horas, minutos e segundos.
+   - Além disso, ela formata os minutos e segundos para terem sempre dois dígitos (adicionando um zero à esquerda se necessário).
+
+ - Arrays de Nomes de Mês e Dia da Semana:
+   - O código inclui arrays predefinidos para os nomes dos meses e dias da semana em português.
+
+ - Arrays de IDs e Valores:
+   - Define dois arrays, ids e values, que correspondem aos IDs dos elementos HTML onde as informações de data e hora serão exibidas, e seus respectivos valores atualizados.
+
+ - Loop para Atualização de Elementos HTML:
+   - Utiliza um loop for para percorrer os IDs e atualizar os elementos HTML correspondentes com os valores calculados e formatados.
+
+ - Função initClock:
+   - Chama a função updateClock para inicializar a exibição de data e hora assim que a página é carregada.
+   - Usa window.setInterval para chamar a função updateClock a cada milissegundo, garantindo que a data e a hora sejam atualizadas em tempo real.
 
 
 <h2 id="#layout"> UX|UI </h2>
