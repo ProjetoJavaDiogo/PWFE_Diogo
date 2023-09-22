@@ -66,8 +66,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
     - Um botão de alternância de tema permite ao usuário mudar entre modos de cor claro e escuro na interface da calculadora.
 
 ## Lâmpada
-Certamente! Aqui está um resumo em cinco tópicos do código fornecido:
-
  - Seleção de Elementos HTML:
    - O código seleciona elementos HTML usando `document.getElementById` para os botões de ligar e desligar (`LigarOn` e `DesligarOff`) e para a lâmpada (`lamp`).
 
