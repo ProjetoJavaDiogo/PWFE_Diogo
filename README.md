@@ -2,6 +2,8 @@
 
 <h2 id="#objetivo"> 🎯 Objetivo </h2>
 
+  - O objetivo é `praticar` conceitos de `HTML`, `CSS` e `JavaScript`, enquanto criamos projetos interativos e visualmente atrativos | `UX|UI`.
+
 <h2 id="#descricao"> 📃 Descrição </h2>
 
 - `Projeto 1`: Lâmpada 💡
@@ -26,8 +28,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x]  HTML
 - [x]  CSS
 - [x]  JavaScript
-
-<h2 id="#funcionalidades"> Funcionalidades dos Projetos </h2>
 
 ## Semáforo
  - Seleção de Elementos HTML:
@@ -105,12 +105,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
  - Função initClock:
    - Chama a função updateClock para inicializar a exibição de data e hora assim que a página é carregada.
    - Usa window.setInterval para chamar a função updateClock a cada milissegundo, garantindo que a data e a hora sejam atualizadas em tempo real.
-
-
-<h2 id="#layout"> UX|UI  </h2>
-
-<h2 id="#responsividade"> Responsividade </h2>
-
 
 ## <a href="RELATÓRIO.md"> Relatório dos Projetos ✍️ </a> 
 
