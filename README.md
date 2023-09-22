@@ -21,11 +21,11 @@
 
 - `Projeto 1`: Lâmpada 💡
   - 
-  - Este código cria uma calculadora interativa com funcionalidades básicas de operações matemáticas e um recurso para alternar entre modos de cor.
+  - O código implementa um controle interativo de uma lâmpada através de botões de ligar e desligar, além de permitir que a lâmpada seja quebrada ao ser clicada duas vezes.
   
 - `Projeto 2`: Semáforo ⚙
   - 
-  - Este código cria uma calculadora interativa com funcionalidades básicas de operações matemáticas e um recurso para alternar entre modos de cor.
+  - Resumidamente, o código cria uma animação de alternância de luzes circulares que mudam de cor. Além disso, há uma função que alterna o fundo de uma div entre azul e cinza (ou vermelho e azul) a cada segundo.
   
 - `Projeto 3`: Calculadora 🧮
   - 
@@ -33,8 +33,7 @@
   
  - `Projeto 3a`: Relógio ⏳
    - 
-   - Este código JavaScript cria uma função para atualizar e exibir a data e a hora atuais, utilizando arrays para armazenar os nomes de meses e dias da semana, e um loop para atualizar os elementos HTML correspondentes.
-   - A função initClock é utilizada para iniciar o relógio no momento do carregamento da página.
+   - Neste projeto o  código JavaScript cria uma função para atualizar e exibir a data e a hora atuais, utilizando arrays para armazenar os nomes de meses e dias da semana, e um loop para atualizar os elementos HTML correspondentes.
 
 <h2 id="#tecnologias"> 🛠️ Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -60,6 +59,30 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
   - Alternância de Modo de Cor:
     - Um botão de alternância de tema permite ao usuário mudar entre modos de cor claro e escuro na interface da calculadora.
+
+## Lâmpada
+Certamente! Aqui está um resumo em cinco tópicos do código fornecido:
+
+ - Seleção de Elementos HTML:
+   - O código seleciona elementos HTML usando `document.getElementById` para os botões de ligar e desligar (`LigarOn` e `DesligarOff`) e para a lâmpada (`lamp`).
+
+ - Definição de Funções:
+   - O código define três funções: `lampOn`, `lampOff` e `LampadaQuebrada`.
+   - `lampOn` altera a fonte da imagem da lâmpada para a versão acesa.
+   - `lampOff` altera a fonte da imagem da lâmpada para a versão apagada.
+   - `LampadaQuebrada` altera a fonte da imagem da lâmpada para a versão quebrada.
+
+  - Associação de Eventos:
+     - Ao clique do botão "Ligar", a função `lampOn` é chamada.
+     - Ao clique do botão "Desligar", a função `lampOff` é chamada.
+     - Quando o mouse passa sobre a lâmpada, a função `lampOn` é chamada.
+     - Quando o mouse sai da área da lâmpada, a função `lampOff` é chamada.
+     - Quando a lâmpada é clicada duas vezes (`dblclick`), a função `LampadaQuebrada` é chamada.
+
+ - Manipulação de Imagens:**
+   - As funções `lampOn`, `lampOff` e `LampadaQuebrada` alteram a fonte da imagem da lâmpada para refletir seu estado.
+
+ - Resumidamente, o código implementa um controle interativo de uma lâmpada através de botões de ligar e desligar, além de permitir que a lâmpada seja quebrada ao ser clicada duas vezes.
 
 ## Relógio
  - Função updateClock:
