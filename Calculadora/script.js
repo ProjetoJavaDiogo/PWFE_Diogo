@@ -1,11 +1,11 @@
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
 const specialChars = ["%", "*", "/", "-", "+", "=","x²"];
-let output = "";
+let output = ""; // output é let pois os valores recebidos variam
 
 
 const calculate = (btnValue) => {
-    if (btnValue === "=" && output !== "") {
+    if (btnValue === "=" && output !== "") { //compara os valores levando em conta o valor e o tipo de dado
         output = avalExpression(output.replace("%", "/100"));
     } else if (btnValue === "CE") { //apagar as informações do display
         output = "";
@@ -14,19 +14,21 @@ const calculate = (btnValue) => {
     } else if (btnValue === "x²") {
         output = Math.sqrt(parseFloat(output));
     } else {
-        output += btnValue;
+        output += btnValue; //o valor do botão é adicionado ao display
     }
     display.value = output; //aparecer no display o output
 };
 
 // declarando a função "avalExpression"
 const avalExpression = (expression) => {
-    const operators = /[+\-*/]/g; // corresponde aos operadores +, -, *, /
+    const operators = /[+\-*/]/g; // corresponde aos operadores matemáticos +, -, *, /
     const parts = expression.split(operators); // usado em strings para dividir a string em um array de substrings, usando um separador nesse caso os operadores
+    //exemplo: 10+20 ==> ("10","20")
     const operator = expression.match(operators); // usando o match para encontrar todos os operadores
 
     if (parts.length === 2 && operator) {  //verifica se a string foi divida corretamente (nº e operator) e se existe um operador
         const [num1, num2] = parts.map(parseFloat); //extrai os dois valores e converte para float
+        //cria um novo array a partir de um array existente, aplicando uma função a cada elemento do array original
 
         switch (operator[0]) { //usando switch case para definir os casos das operações matemáticas
             case "+": return num1 + num2;
