@@ -6,7 +6,7 @@ let output = ""; // output é let pois os valores recebidos variam
 
 const calculate = (btnValue) => {
     if (btnValue === "=" && output !== "") { //compara os valores levando em conta o valor e o tipo de dado
-        output = avalExpression(output.replace("%", "/100"));
+        output = evalExpression(output.replace("%", "/100"));
     } else if (btnValue === "CE") { //apagar as informações do display
         output = "";
     } else if (btnValue === "DEL") {  //apagar a primeira informação do display
@@ -20,7 +20,7 @@ const calculate = (btnValue) => {
 };
 
 // declarando a função "avalExpression"
-const avalExpression = (expression) => {
+const evalExpression = (expression) => {
     const operators = /[+\-*/]/g; // corresponde aos operadores matemáticos +, -, *, /
     const parts = expression.split(operators); // usado em strings para dividir a string em um array de substrings, usando um separador nesse caso os operadores
     //exemplo: 10+20 ==> ("10","20")
@@ -49,6 +49,14 @@ const avalExpression = (expression) => {
 
     return NaN; //else da expressão
 };
+
+// const evalExpression = (expression) => {
+//     try {
+//         return eval(expression);
+//     } catch (error) {
+//         return "Erro";
+//     }
+// };
 
 buttons.forEach((button) => { 
     button.addEventListener("click", (e) => calculate(e.target.dataset.value));
