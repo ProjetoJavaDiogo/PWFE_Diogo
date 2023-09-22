@@ -1,20 +1,5 @@
 <h1 align="center"> Projetos JavaScript | PWFE </h1>
 
-
-<h2 id=indice> 🗂️ Índice </h2>
-<p align="center">
- <a href="#objetivo">Objetivo</a> |
- <a href="#descricao">Descrição</a> |
- <a href="#tecnologias">Tecnologias</a> |
- <a href="#funcionalidades">Funcionalidade</a> |
- <a href="#layout">UX|UI</a> |
- <a href="#responsividade">Responsividade </a> |
- <a href="#resumo">Resumo do Projeto</a> |
- <a href="#referencia">Referências | Estudos</a> |
- <a href="#relatorios">Relatórios</a> |
- <a href="#autor">Autores</a>
-</p>
-
 <h2 id="#objetivo"> 🎯 Objetivo </h2>
 
 <h2 id="#descricao"> 📃 Descrição </h2>
@@ -43,6 +28,26 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x]  JavaScript
 
 <h2 id="#funcionalidades"> Funcionalidades dos Projetos </h2>
+
+## Semáforo
+ - Seleção de Elementos HTML:
+   - O código utiliza document.querySelectorAll para selecionar todos os elementos com a classe "luz-circular" e os armazena em uma NodeList chamada $luzesDoCirculo.
+   - Além disso, ele seleciona um elemento com o id "minhaDiv" e o armazena em minhaDiv.
+
+ - Variáveis de Controle:
+   - contadorDeLuz é uma variável que serve como um contador para controlar qual luz circular está sendo exibida. Inicialmente é definida como 0.
+
+ - Função mostrarLuz:
+   - Esta função é responsável por alternar a exibição das luzes circulares.
+   - Ela remove a classe 'luz-circular' da luz atual e avança para a próxima luz no array. Se atingir o último elemento, volta para o primeiro.
+   - Em seguida, adiciona a classe correspondente à cor da luz atual.
+
+ - Intervalo de Atualização Automática:
+   - Utiliza setInterval para chamar a função mostrarLuz a cada 1000 milissegundos (1 segundo), criando uma animação de alternância de luzes.
+
+ - Mudança de Cor de Fundo da Div:
+   - A função mudarCorDeFundo altera a cor de fundo da div com o id "minhaDiv".
+   - Ela verifica a cor atual e alterna entre azul e cinza (ou vermelho e azul) em um intervalo de 1 segundo.
 
 ## Calculadora
   - Seleção de Elementos HTML:
