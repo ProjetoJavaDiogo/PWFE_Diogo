@@ -1,6 +1,6 @@
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
-const specialChars = ["%", "*", "/", "-", "+", "=","x²"];
+const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = ""; // output é let pois os valores recebidos variam
 
 let optionsVisible = true;
@@ -27,7 +27,7 @@ const calculate = (btnValue) => {
         output = "";
     } else if (btnValue === "DEL") {  //apagar a primeira informação do display
         output = output.toString().slice(0, -1); 
-    } else if (btnValue === "x²") {
+    } else if (btnValue === "√") {
         output = Math.sqrt(parseFloat(output));
     } else if(btnValue === "pi"){
         output = Math.PI;

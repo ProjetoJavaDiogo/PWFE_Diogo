@@ -38,6 +38,11 @@ body{
     border: 3px solid rgb(109, 32, 181);
 }
 
+.additional-option {
+    display: none;
+}
+
+
 /* Componentes da calculadora */
 
 .container{
