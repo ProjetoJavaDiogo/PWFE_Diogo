@@ -9,10 +9,13 @@
 </head>
 <body>
 
-    <a href="../index.html"><button type="button" id="btn">Back to Index</button></a>
+    <a href="../index.html"><button type="button" id="btn" data-value=" " >Back to Index</button></a>
     <div class="theme-toggler active">
         <i class="toggler-icon"></i>
     </div>
+
+    <button class="toggle-options" data-value=" ">Calculadora Cientifica</button>
+
 
     <div class="container">
         <div class="calculator dark">
@@ -41,9 +44,15 @@
             <button class="operator" data-value="+">+</button>
             
             <button data-value="0">0</button>
-            <button data-value="x²">x²</button>
+            <button data-value="√">√</button>
             <button data-value=".">.</button>
             <button class="operator" data-value="=" id="equal">=</button>
+
+            <button class="additional-option" data-value="pi">π</button>
+            <button class="additional-option" data-value="log">log</button>
+            <button class="additional-option" data-value="e">e</button>
+            <button class="additional-option" data-value="fat">fat</button>
+
 
             </div>
         </div>
