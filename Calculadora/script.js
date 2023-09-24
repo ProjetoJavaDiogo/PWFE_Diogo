@@ -3,6 +3,22 @@ const buttons = document.querySelectorAll("button");
 const specialChars = ["%", "*", "/", "-", "+", "=","x²"];
 let output = ""; // output é let pois os valores recebidos variam
 
+let optionsVisible = true;
+
+const toggleOptionsBtn = document.querySelector(".toggle-options");
+toggleOptionsBtn.addEventListener("click", toggleOptions);
+
+function toggleOptions() {
+    const additionalOptions = document.querySelectorAll(".additional-option");
+    optionsVisible = !optionsVisible;
+
+    additionalOptions.forEach(option => {
+        option.style.display = optionsVisible ? "inline-block" : "none";
+    });
+
+    toggleOptionsBtn.textContent = optionsVisible ? "Calculadora Normal" : "Calculadora Cientifica";
+}
+
 
 const calculate = (btnValue) => {
     if (btnValue === "=" && output !== "") { //compara os valores levando em conta o valor e o tipo de dado
@@ -13,13 +29,35 @@ const calculate = (btnValue) => {
         output = output.toString().slice(0, -1); 
     } else if (btnValue === "x²") {
         output = Math.sqrt(parseFloat(output));
+    } else if(btnValue === "pi"){
+        output = Math.PI;
+    } else if(btnValue === "e"){
+        output = Math.E;
+    } else if(btnValue === "fat"){
+        output = calcularFatorial(parseFloat(output));
+    } else if(btnValue === "log"){
+        output = calcularLogaritmo(10, parseFloat(output)); 
     } else {
         output += btnValue; //o valor do botão é adicionado ao display
     }
     display.value = output; //aparecer no display o output
 };
 
-// declarando a função "avalExpression"
+//função para calcular o fatorial
+const calcularFatorial = (n) => {
+    if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * calcularFatorial(n - 1);
+    }
+};
+//função para calular log
+const calcularLogaritmo = (base, numero) => {
+    return Math.log(numero) / Math.log(base);
+};
+
+
+// função "avalExpression"
 const evalExpression = (expression) => {
     const operators = /[+\-*/]/g; // corresponde aos operadores matemáticos +, -, *, /
     const parts = expression.split(operators); // usado em strings para dividir a string em um array de substrings, usando um separador nesse caso os operadores
@@ -34,20 +72,13 @@ const evalExpression = (expression) => {
             case "+": return num1 + num2;
             case "-": return num1 - num2;
             case "*": return num1 * num2;
-            case "/": 
-            if (num2 !== 0) {
-                return num1 / num2;
-            } else {
-                return "Erro: / por 0";
-            }
-            case "x²": return Math.sqrt(num1);
+            case "/": return num2!==0 ? num1/num2 : "Erro: / por 0"; // operador ternário 
             //adicionar mais operações
             default: return NaN;  
         }
         
-    }
-
-    return NaN; //else da expressão
+    } 
+    return NaN;
 };
 
 // const evalExpression = (expression) => {
