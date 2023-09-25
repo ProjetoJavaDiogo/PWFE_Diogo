@@ -1,22 +1,26 @@
 const display = document.querySelector(".display");
-const buttons = document.querySelectorAll("button");
-const specialChars = ["%", "*", "/", "-", "+", "="];
+const botoes = document.querySelectorAll("button");
 let output = ""; // output é let pois os valores recebidos variam
+let tipoMostrado = true; // para calculadora cientifica
 
-let optionsVisible = true;
 
-const toggleOptionsBtn = document.querySelector(".toggle-options");
-toggleOptionsBtn.addEventListener("click", toggleOptions);
 
-function toggleOptions() {
-    const additionalOptions = document.querySelectorAll(".additional-option");
-    optionsVisible = !optionsVisible;
+// ALTERNAR entre os modos da calculadora
+const mudarTipoBtn = document.querySelector(".mudarTipo");
+mudarTipoBtn.addEventListener("click", mudarTipo);
 
-    additionalOptions.forEach(option => {
-        option.style.display = optionsVisible ? "inline-block" : "none";
+function mudarTipo() {
+    const cientifica = document.querySelectorAll(".cientifica");
+    tipoMostrado = !tipoMostrado; // invertendo os valores
+
+
+    cientifica.forEach(option => {
+        option.style.display = tipoMostrado ? "inline-block" : "none";
     });
 
-    toggleOptionsBtn.textContent = optionsVisible ? "Calculadora Normal" : "Calculadora Cientifica";
+    mudarTipoBtn.textContent = tipoMostrado ? "Calculadora Normal" : "Calculadora Científica";
+    //tipoMostrado = true    => calculadora normal
+    //tipoMostrado = false    => calculadora cientifica
 }
 
 
@@ -28,7 +32,7 @@ const calculate = (btnValue) => {
     } else if (btnValue === "DEL") {  //apagar a primeira informação do display
         output = output.toString().slice(0, -1); 
     } else if (btnValue === "√") {
-        output = Math.sqrt(parseFloat(output));
+        output = Math.sqrt(parseFloat(output)); //raiz
     } else if(btnValue === "pi"){
         output = Math.PI;
     } else if(btnValue === "e"){
@@ -83,18 +87,43 @@ const evalExpression = (expression) => {
 
 // const evalExpression = (expression) => {
 //     try {
-//         return eval(expression);
+//         return eval(expression);  // avalia o valor da cadeia de caracteres e calcula o resultado. (VBA)
 //     } catch (error) {
 //         return "Erro";
 //     }
 // };
 
-buttons.forEach((button) => { 
+botoes.forEach((button) => { 
     button.addEventListener("click", (e) => calculate(e.target.dataset.value));
     //eventListener para quando um botão é clicado, rodar a função calculate  de acordo com os argumentos fornecidos pelo usuário
 });
 
-//código para alternar entre os modos de cor
+
+
+// Mapeamento das teclas do teclado
+
+document.addEventListener("keydown", (e) => {
+    const key = e.key; // recebendo o valor da tecla clicada
+    //array para todas as teclas válidas da calculadora
+    const teclas = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "+", "-", "*", "/", "=", "Enter", "Backspace", "Escape"];
+    
+    if (teclas.includes(key)) {
+      calculate(key); // roda  a função calculate
+    }
+  });
+
+  //setando o funcionamento de enter e backspace
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        calculate("="); // atribuindo a tecla enter como igual
+    } else if(e.key === "Backspace"){
+      calculate("CE"); 
+    }
+  });
+
+
+
+// ALTERNANDO entre os modos de cores da calculadora
 const themeToggleBtn = document.querySelector(".theme-toggler");
 const calcular = document.querySelector(".container");
 const toggleIcon = document.querySelector(".toggler-icon");
